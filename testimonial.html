@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <style>
+        *{
+margin: 0px;
+padding: 0px;
+font-family:Arial, Helvetica, sans-serif;
+        }
+body{
+    background-color: #21B298;
+}
+h1{
+    padding: 20px ;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    color: #0E353D;
+}
+.container{
+
+    display: grid;
+    gap: 30px;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    width: 350px;
+  height: 400px;
+    background-color: #0E353D;
+    border: 2px solid #124060;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.image{
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+
+}
+.content{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height:1.5;
+    
+}
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 15px ;
+   
+}
+}
+        
+    </style>
+</head>
+
+<body>
+    <h1>Testimonials</h1>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <img src="man2.jpeg" class="image">
+               <div class="text"> <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia vero maiores nostrum deleniti
+                    consectetur asperiores aliquid, placeat sit, animi praesentium corrupti aperiam incidunt voluptas
+                    unde ut. In, libero accusantium?
+                </p>
+                <h3>John William</h3>
+                <p><i>CEO of StarAngels</i></p>
+            </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="girl.jpeg" class="image">
+               <div class="text"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia vero maiores nostrum deleniti
+                    consectetur asperiores aliquid, placeat sit, animi praesentium corrupti aperiam incidunt voluptas
+                    unde ut. In, libero accusantium?
+                </p>
+                <h3>Tania Sehgal</h3>
+                <p><i>Manager </i></p>
+            </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="man3.jpeg" class="image">
+               <div class="text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia vero maiores nostrum deleniti
+                    consectetur asperiores aliquid, placeat sit, animi praesentium corrupti aperiam incidunt voluptas
+                    unde ut. In, libero accusantium?
+                </p>
+                <h3>Tony Stark</h3>
+                <p><i>Head Of the Department</i></p>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
